@@ -1,14 +1,31 @@
-.background_filler{
-  max-width: 100%;
-  height: auto;
+body, html{
+height: 100%;
 }
-.parallax{
-  /* Eingebundene Bilder für Effekt */
-  background-image:url(Images/01StandardScreen/space_flash_1920x1080.jpg);
-  height:300px;
+.para-image-1, .para-image-2, .para-image-3{
   /*Effekt*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.para-image-1{
+/* 1. Eingebundenes Bild für Effekt */
+background-image:url(Images/01StandardScreen/space_flash_1920x1080.jpg);
+height:100%;
+}
+.para-image-2{
+/* 2. Eingebundenes Bild für Effekt */
+background-image:url(Images/01StandardScreen/desert_flash_1920x1080.jpg);
+height:100%;
+}
+.para-image-3{
+/* 3. Eingebundenes Bild für Effekt */
+background-image:url(Images/01StandardScreen/hacked_flash_1920x1080.jpg);
+height:100%;
+}
+/*
+.background_filler{
+  max-width: 100%;
+  height: auto;
+}
+*/
