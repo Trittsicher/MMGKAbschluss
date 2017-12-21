@@ -2,3 +2,13 @@
   max-width: 100%;
   height: auto;
 }
+.parallax{
+  /* Eingebundene Bilder für Effekt */
+  background-image:url(Images/01StandardScreen/space_flash_1920x1080.jpg);
+  height:300px;
+  /*Effekt*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
