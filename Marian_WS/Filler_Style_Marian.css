@@ -36,6 +36,14 @@ height:50%;
 background-image:url(Images/01StandardScreen/desert_flash_1920x1080.jpg);
 height:50%;
 }
+/*Deaktivieren des Effekts für Mobil*/
+@media only screen and (max-device-width: 700px) {
+  .para-image-0, .para-image-1,
+  .para-image-2,.para-image-3,
+  .para-image-4 {
+        background-attachment: scroll;
+    }
+}
 .centered_font{
 /* Schrifft für Trenner (para-image) mittig*/
 position: relative;
